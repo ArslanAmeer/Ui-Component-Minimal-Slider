@@ -1,0 +1,11 @@
+{
+  "name": "customized-slider",
+  "version": "1.0.0",
+  "description": "A Customized Slider for simple use. (Thanks To flickity)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arslan Ameer",
+  "license": "ISC"
+}
