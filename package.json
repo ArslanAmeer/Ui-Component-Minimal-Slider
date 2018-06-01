@@ -1,5 +1,5 @@
 {
-  "name": "customized-slider",
+  "name": "ui-component-customized-slider",
   "version": "1.0.0",
   "description": "A Customized Slider for simple use. (Thanks To flickity)",
   "main": "index.js",
