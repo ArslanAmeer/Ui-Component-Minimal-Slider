@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ui-Slider (Customized Flickity Slider)</title>
+    <link rel="stylesheet" href="assets/css/vendor/flickity.min.css">
+    <style>
+        .carousel-container{
+            width: 70vw;  /* Set The Container Value As Required */
+            margin: auto;
+        }
+        .carousel-cell img{
+            width: 70vw; /* Set same value as container if you want single image to fit container */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carousel-container">
+        <div class="main-carousel">
+            <div class="carousel-cell"><img src="assets/images/IM-Banners (1).jpg" alt="1"></div>
+            <div class="carousel-cell"><img src="assets/images/IM-Banners (5).jpg" alt="2"></div>
+            <div class="carousel-cell"><img src="assets/images/IM-Banners (3).jpg" alt="3"></div>
+            <div class="carousel-cell"><img src="assets/images/IM-Banners (6).jpg" alt="4"></div>
+            <div class="carousel-cell"><img src="assets/images/IM-Banners (2).jpg" alt="5"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/vendor/flickity.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector(".main-carousel");
+        var flkty = new Flickity( elem, {
+            autoPlay: 2500,
+            draggable: false,
+            cellAlign: 'center',
+            contain: true,
+            wrapAround: true,
+            prevNextButtons: true,
+            pageDots: true,
+            pauseAutoPlayOnHover: false,
+            initialIndex: 2, // Zero Based Index, Set First Slide 
+            percentPosition: false    //-- TRUE Only If You want your slider width in percenatge
+        });
+    </script>
+</body>
+</html>
