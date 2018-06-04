@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 60vw;
+    margin: auto;
+    transition: all .3s;
+}
+@media only screen and (max-width:800px){
+    .container{
+        width: 100%;
+        /* margin: auto; */
+    }
+}
