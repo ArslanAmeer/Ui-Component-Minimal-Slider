@@ -6,6 +6,7 @@
 
 .container{
     width: 60vw;
+    position: relative;
     margin: auto;
     transition: all .3s;
 }
