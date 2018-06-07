@@ -1,0 +1,123 @@
+# 🖼 Image Slider 🖼
+### A Simple, 👌 Elegent and Minimal ( ⛏ Customized) Slider Made with HTML CSS &amp; JQuery. 
+#### Many Thanks To 🙏 ( https://github.com/viljamis/ResponsiveSlides.js ) 🙇‍♂️
+---
+### DEMO 👉 **[Try Live Demo](https://arslanameer.github.io/Ui-Component-Minimal-Slider/)**
+
+![Slider Demo](assets/images/demo.gif "Responsive Slider")
+
+
+
+---
+## ✏ About 💡:
+
+This slider is made with html css and js. It uses jquery to fade between images automatically , through navigation buttons
+or through pagination bullets.
+This Repo and Slider is Made for standard use, as a banner or ad slider. 
+
+**NOTE:** I set all slider's css and settings as per my Standard Use.
+
+Use it, try it, modify it as you need.
+
+## 💡 How To Use 🔬 :
+
+➕ Add CSS (styling File) and JS (script File) links under `<head>` tag of your html.
+```html
+<link rel="stylesheet" href="assets/css/slider.css">
+<link rel="stylesheet" href="assets/css/main.css">
+```
+Beacause this slider is JQuery dependent. You can either download [Jquery](https://jquery.com/) from website or use bellow cdn link
+on top of your html file.
+```html
+<!-- Main Slider Script Linking -->
+<script src="assets/js/slider.min.js"></script>
+
+<!-- Jquery Script Linking -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  OR
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+```
+
+➕ Add Markup in your body:
+```html
+<body>
+  <div class="container"><!-- This is Main Container for My Page. U may need it or not. Creat or Modify as per your Need -->
+     <div class="rslides_container">
+       <ul class="rslides" id="slider">
+         <li><img src="assets/images/demoimage (1).jpg" alt="1"></li>
+         <li><img src="assets/images/demoimage (2).jpg" alt="2"></li>
+         <li><img src="assets/images/demoimage (3).jpg" alt="3"></li>
+         <li><img src="assets/images/demoimage (4).jpg" alt="4"></li>
+         <!-- Add many Images As you need -->
+       </ul>
+     </div>
+  </div>
+  <script>
+    // Will Add Slider Initializing Script Here
+  </script>
+</body>
+```
+
+**Finally**
+➕ Add script to your file within seperate `<script>...</script>` tag so initialize your Image Slider.
+```js
+$(function () {    
+    // Slideshow
+    $("#slider").responsiveSlides({
+        auto: true,                     // Auto Slide Start
+        pager: true,                    // Bullets on Bottom
+        nav: true,                      // Prev & Next Button 
+        speed: 700,                     // Slide Tranistion Speed (ms)
+        timeout: 2700,                  // Time INterval Between Eac Slider (ms)
+        maxwidth: 800,                  // Slider Width Max
+        namespace: "centered-btns"      // Navigation button Location
+    });
+});
+```
+
+## YOU'RE DONE! 🎆🎇🎉👏👏
+---
+### Additional Settings 😎
+
+You can add or modify slider setting in script file. follwing are complete settings list you can apply.
+```js
+$(".rslides").responsiveSlides({
+  auto: true,             // Boolean: Animate automatically, true or false
+  speed: 500,            // Integer: Speed of the transition, in milliseconds
+  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+  pager: false,           // Boolean: Show pager, true or false
+  nav: false,             // Boolean: Show navigation, true or false
+  random: false,          // Boolean: Randomize the order of the slides, true or false
+  pause: false,           // Boolean: Pause on hover, true or false
+  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+  prevText: "Previous",   // String: Text for the "previous" button
+  nextText: "Next",       // String: Text for the "next" button
+  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+  manualControls: "",     // Selector: Declare custom pager navigation
+  namespace: "rslides",   // String: Change the default namespace used
+  before: function(){},   // Function: Before callback
+  after: function(){}     // Function: After callback
+});
+```
+
+For Further Guidance and Information Please Visit:  http://responsiveslides.com/
+
+
+## 📄 License  🔐
+
+Ui-Component-Minimal-Slider (Image Slider)
+Copyright (C) 2018  - Arslan Ameer
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
