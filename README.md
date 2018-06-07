@@ -8,35 +8,40 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 ![Author](https://img.shields.io/badge/Author-Arslan_Ameer-lightgrey.svg)
 
-### A Simple, 👌 Elegent and Minimal ( ⛏ Customized) Slider Made with HTML CSS &amp; JQuery. 
+### A Simple 👌 Elegent 💎 and Minimal  ( ⛏ Customized) Slider Made with HTML CSS &amp; JQuery. 
 #### Many Thanks To 🙏 ( https://github.com/viljamis/ResponsiveSlides.js ) 🙇‍♂️
 ---
-### DEMO 👉 **[Try Live Demo](https://arslanameer.github.io/Ui-Component-Minimal-Slider/)**
+### DEMO 
 
 ![Slider Demo](assets/images/demo.gif "Responsive Slider")
 
-
+👉 **[Try Live Demo](https://arslanameer.github.io/Ui-Component-Minimal-Slider/)**
 
 ---
 ## ✏ About 💡:
 
-This slider is made with html css and js. It uses jquery to fade between images automatically , through navigation buttons
+This slider is made with html css and js. It uses jquery to fade between images automatically and through navigation buttons
 or through pagination bullets.
-This Repo and Slider is Made for standard use, as a banner or ad slider. 
+This Slider is Made/Customized for standard use, as a banner or ad slider. 
 
-**NOTE:** I set all slider's css and settings as per my Standard Use.
+**NOTE:** I set slider's css and settings for Demo purpose.
 
-Use it, try it, modify it as you need.
+Try & modify it as you need.
 
 ## 💡 How To Use 🔬 :
 
-➕ Add CSS (styling File) and JS (script File) links under `<head>` tag of your html.
+➕ Add CSS (styling File) and JS (script File) links inside `<head>` tag of your html file.
+These files can be found in `assets/css` and `assets/js` folders.
+
 ```html
 <link rel="stylesheet" href="assets/css/slider.css">
 <link rel="stylesheet" href="assets/css/main.css">
 ```
-Beacause this slider is JQuery dependent. You can either download [Jquery](https://jquery.com/) from website or use bellow cdn link
-on top of your html file.
+And because this slider is JQuery dependent. You can either download [Jquery](https://jquery.com/) from website or use bellow cdn link.
+
+(JQuery minified javascript file is included in `asstes/js`)
+
+Add this link inside of `<head>` tag.
 ```html
 <!-- Main Slider Script Linking -->
 <script src="assets/js/slider.min.js"></script>
@@ -68,7 +73,7 @@ on top of your html file.
 ```
 
 **Finally**
-➕ Add script to your file within seperate `<script>...</script>` tag so initialize your Image Slider.
+➕ Add this script to your file within seperate `<script>...</script>` tag to initialize your Image Slider.
 ```js
 $(function () {    
     // Slideshow
@@ -84,11 +89,12 @@ $(function () {
 });
 ```
 
-## YOU'RE DONE! 🎆🎇🎉👏👏
+  ## YOU'RE DONE! 🎆🎇🎉👏👏
 ---
+
 ### Additional Settings 😎
 
-You can add or modify slider setting in script file. follwing are complete settings list you can apply.
+You can add or modify slider settings in script file. following are complete list of settings you can apply.
 ```js
 $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
