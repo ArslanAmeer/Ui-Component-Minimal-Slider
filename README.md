@@ -1,7 +1,6 @@
 # 🖼 Image Slider 🖼 
 ![CDNJS](https://img.shields.io/cdnjs/v/jquery.svg)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
-![GitHub repo top language](https://img.shields.io/github/languages/top/badges/shields.svg)
+[![GitHub license](https://img.shields.io/github/license/ArslanAmeer/Ui-Component-Minimal-Slider.svg)](https://github.com/ArslanAmeer/Ui-Component-Minimal-Slider/blob/master/LICENSE)
 ![GitHub repo documentation](https://img.shields.io/badge/Documentation-Proper-brightgreen.svg)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
